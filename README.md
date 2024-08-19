@@ -21,8 +21,8 @@ funcao inicio()
  
    idade_em_segundos = (segundos_do_ano * 16)
    escreva("c- Minha idade em segundos é: ", idade_em_segundos,"\n" ) 
-   chocolate_na_vida = (2 * semanas_no_ano)
-   escreva("d- Se eu comer 2 chocolates por semana, logo eu comerei ", chocolate_na_vida, " chocolates por ano, até morrer. \n")
+   chocolate_na_vida = (4 * semanas_no_ano)
+   escreva("d- Se eu comer 4 chocolates por semana, logo eu comerei ", chocolate_na_vida, " chocolates por ano, até morrer. \n")
    idade_em_anos = (977000000 /segundos_do_ano)
    escreva("e- Se sua idade é de 977 milhoes de segundos, você terá: ", idade_em_anos, " anos. \n")
   }
@@ -60,6 +60,23 @@ funcao inicio()
     idade_final = (21 / idade_em_jupiter)
     escreva("b- A idade da pessoa em júpiter seria: ", idade_final)
     
+  }
+}
+3-
+funcao inicio() {
+    inteiro materia
+    inteiro tempo
+    inteiro tempoDedicado
+    inteiro tempoLivre
+
+    tempoDedicado = 1 * 60 + 40
+    materia = 6
+
+    tempo = tempoDedicado / materia
+    tempoLivre = tempoDedicado - (tempo * materia)
+    
+    escreva ("o tempo médio por materia é ", tempo, " minutos \n")
+    escreva ("o tempo livre é ", tempoLivre, " minutos")
   }
 }
 
